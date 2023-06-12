@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(10, 104, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgb(29, 27, 27);
+}
+#mainForm{
+    height: 87.6vh;
+    width: 100%;
+    background: linear-gradient(white,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-weight: 750;
+    text-shadow: 2px 2px 5px rgb(99, 208, 216);
+}
+#mainForm>form{
+    height: 280px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(141, 184, 224);
+    border-radius: 10px;
+    line-height: 30px;
+}
+#mainForm>form label{
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainForm>form input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    color:black;
+}
+#mainForm>form input:focus{
+    outline: none;
+}
+#btn{
+    height: 30px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: black;
+    font-style: italic;
+    text-shadow: 2px 2px 2px white;    
+}
+
+
+#user{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(white,black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#card{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+}
+#card>table>tr>td{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+       justify-content: space-evenly;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-weight: 750;
+    text-shadow: 2px 2px 5px rgb(99, 208, 216);
+}
+#card>table>tr>td>div{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-weight: 750;
+    text-shadow: 2px 2px 5px rgb(99, 208, 216);
+}
+#card>table>tr>td>div>a{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+}
+
+

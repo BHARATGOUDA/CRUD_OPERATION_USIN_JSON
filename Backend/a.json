@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "name": "Bharat",
+      "salary": "30555",
+      "company": "wipro",
+      "id": 1
+    },
+    {
+      "name": "Pradeep",
+      "salary": "25000",
+      "company": "Tcs",
+      "id": 2
+    }
+  ]
+}
